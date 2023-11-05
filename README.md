@@ -42,22 +42,20 @@ version = QLMail.get_version()
 
 # Instantiate the QLMail Client
 client = QLMail.Client(
-    "Bobby Boucher <waterboy@example.com>",     # The Sender Email Address
-    "gatorade@example.com",                     # The Recipient Email Address
-    "High Quality H2O",                         # The Email Subject
-    "Water is good.",                           # The Body Text of the Email
-    "<p>Water is good.<p>",                     # The Body Text as HTML of the Email
-    "us-east-1",                                # The AWS Region Location to use
-    "UTF-8"                                     # The charset of the Email
+    "John Kiarie, <johnkiarie99@example.com>",     # The Sender Email Address
+    "hacokenya@example.com", is The Recipient Email Address
+"High Quality H2O," # The Subject of the Email
+    "Ruler is good.",                           # The Body Text of the Email
+"<p>Ruler is good.<p>",                     # The Body Text as HTML of the Email
+    "us-east-1",                              # The AWS Region Location to use
+    "UTF-8"                                  # The charset of the Email
 )
 
 # After the object Client has been instantiated with our required variables, we can send the email
 client.send()
 ```
 
-## Future Enhancements
 
-This repo was created because I could not immediately find any solutions available online that integrate with AWS SES and Lambda. Rather than copy and paste the same email code to every function, it seemed like a better solution to create a Layer that can be reused for all Lambda functions requiring email functionality. Therefore, this project is really just a proof of concept.
 
 If this is developed further, future enhancements may include:
 
@@ -66,4 +64,4 @@ If this is developed further, future enhancements may include:
 3. Better logging features
 4. Anything else that comes to mind
 
-Please feel free to contact me for any comments/suggestions: cy.campos1983@gmail.com
+Please feel free to contact me for any comments/suggestions: karimucheru98@gmail.com
