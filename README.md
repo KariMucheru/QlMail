@@ -55,13 +55,11 @@ client = QLMail.Client(
 client.send()
 ```
 
-
-
-If this is developed further, future enhancements may include:
+For this i do plan to do future enhancements and they may may include:
 
 1. Email Queue Implementation so that bulk emails can be sent in batches.
 2. Refactoring Method Names
 3. Better logging features
-4. Anything else that comes to mind
+4. Anything else that comes to mind to make the mail feature much more user friendly and efficient
 
 Please feel free to contact me for any comments/suggestions: karimucheru98@gmail.com
